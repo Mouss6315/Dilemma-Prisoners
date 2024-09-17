@@ -1,10 +1,10 @@
 # Dilemma-Prisoners
-Dilemme du Prisonnier : Introduction d'un joueur jouant en suivant un algorithme de Reinforcement Learning
+Prisoner's Dilemma: Introduction of a player playing according to a Reinforcement Learning algorithm
 
-Le dilemme du prisonnier, énoncé en 1950 par Albert W. Tucker à Princeton, caractérise en théorie des jeux une situation où deux joueurs auraient intérêt à coopérer, mais où, en l'absence de communication entre eux, chacun choisit de trahir l'autre. En 1984, Robert Axelrod publie son article intitulé "L'évolution de la coopération". Il se penche sur les fondements biologiques et sociologiques de la coopération.
+The Prisoner's Dilemma, formulated in 1950 by Albert W. Tucker at Princeton, characterises a situation in game theory where two players have an interest in cooperating but, in the absence of communication between them, each chooses to betray the other. In 1984, Robert Axelrod published his article entitled ‘The Evolution of Cooperation’. He examined the biological and sociological foundations of cooperation.
 
-Axelrod a suggéré que la réciprocité, c'est-à-dire le fait de répondre à des actions positives par des actions positives et à des actions négatives par des actions négatives, était un élément essentiel de la coopération.
+Axelrod suggested that reciprocity, i.e. responding to positive actions with positive actions and to negative actions with negative actions, was an essential element of cooperation.
 
-Ce principe, incarné par la stratégie "tit-for-tat", s'est avéré remarquablement efficace dans les simulations informatiques d'Axelrod de jeux de dilemme du prisonnier répétés. L'objet de notre projet et d'introduire un agent jouant avec un algortihme de Deep Q-Network face à différent type de joueur (Joueur jouant aléatoirement, Joueur jouant la stratégie "Tit For That"). 
+This principle, embodied in the tit-for-tat strategy, has proved remarkably effective in Axelrod's computer simulations of repeated prisoner's dilemma games. The aim of our project is to introduce an agent playing with a Deep Q-Network algorithm against different types of player (random player, player playing the ‘Tit For That’ strategy). 
 
-Nous pourrons ainsi étudier la capacité du joueur DQN à apprendre et à s'adapter face aux différents profils de joueurs. Enfin, on pourra voir si un algorithme de reinforcement learning peut mieux faire que la stratégie optimale "Tit For Tat" trouvé par Axelrod.
+This will enable us to study the DQN player's ability to learn and adapt to different player profiles. Finally, we will be able to see whether a reinforcement learning algorithm can do better than the optimal ‘Tit For Tat’ strategy found by Axelrod.
